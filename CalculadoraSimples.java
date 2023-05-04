@@ -18,7 +18,7 @@ public class CalculadoraSimples{
             System.out.println("2. Subtração");
             System.out.println("3. Multiplicação");
             System.out.println("4. Divisão");
-            System.out.println("5. Porcentagem");
+            System.out.println("5. Resto da divisão");
             System.out.println("6. Sair");
 
             System.out.print("Opção: ");
@@ -94,7 +94,7 @@ public class CalculadoraSimples{
                 } else if(op == 5){
 
                     //Miguel Porcentagem
-                    System.out.println("\n\t\t\t -- Porcentagem --\n");
+                    System.out.println("\n\t\t\t -- Resto da divisão --\n");
                     System.out.println("Digite o primeiro número percentual: ");
                     n1 = entrada.nextInt();
                     System.out.println("Digite o segundo número: ");
@@ -104,7 +104,7 @@ public class CalculadoraSimples{
                     total = n1 % n2;
     
                     //Saida
-                    System.out.println("O resultado da porcentagem é:" + total);
+                    System.out.println("O resultado do resto da divisão é:" + total);
                 } else if(op == 5){
 
 

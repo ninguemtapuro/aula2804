@@ -21,31 +21,50 @@ public class CalculadoraSimples{
             System.out.print("Opção: ");
             op = entrada.nextInt();
 
+            //Miguel
             if(op == 1){
                 System.out.println("\n\t\t\t -- Soma -- \n");
-            } else if (op == 1){
                 
-                //Raí
-                System.out.println("\n\t\t\t -- Subtração -- \n");
-            } else if(op == 2){
                 //Entrada
-                System.out.println("Informe N1:");
-                n1= entrada.nextInt();
-                 System.out.println("Informe N2:");
-                n2= entrada.nextInt();
+                System.out.println("Digite o primeiro número: ");
+                n1 = entrada.nextInt();
+                System.out.println("Digite o segundo número: ");
+                n2 = entrada.nextInt();
 
                 //Processamento
-                total = n1 - n2;
+                total = n1 + n2;
 
-                //Saída
-                System.out.printf("%d - %d = %d", n1, n2, total);
+                //Saida
+                System.out.println("O resultado da soma é:" + total);
+            } else if(op == 2){
+               
+                //Rai
+                
+                    
+                    //Entrada
+                    System.out.println("\n\t\t\t -- Subtração --\n");
+                    System.out.println("Digite o primeiro número: ");
+                    n1 = entrada.nextInt();
+                    System.out.println("Digite o segundo número: ");
+                    n2 = entrada.nextInt();
+    
+                    //Processamento
+                    total = n1 - n2;
+    
+                    //Saida
+                    System.out.println("O resultado da subtração é:" + total);
+                } else if(op == 2){
 
-                System.out.println(" Forte abraço!");
+
+                System.out.println("\n\t\t\t -- Subtração --\n");
+            }else if(op == 3){
+                System.out.println("Forte abraço!");
             }else{
-                System.out.println("Opção " + op + "incorreta!");
+                System.out.println("Opção" + op + " incorreta!");
             }
 
         }while(op!=3);
+
 
 
     }

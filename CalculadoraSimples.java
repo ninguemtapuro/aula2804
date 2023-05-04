@@ -16,7 +16,9 @@ public class CalculadoraSimples{
 
             System.out.println("1. Soma");
             System.out.println("2. Subtração");
-            System.out.println("3. Sair");
+            System.out.println("3. Multiplicação");
+            System.out.println("4. Divisão");
+            System.out.println("5. Sair");
 
             System.out.print("Opção: ");
             op = entrada.nextInt();
@@ -50,17 +52,58 @@ public class CalculadoraSimples{
     
                     //Saida
                     System.out.println("O resultado da subtração é:" + total);
-                } else if(op == 2){
+                } else if(op == 3){
+
+                    //Multiplicação Rai
+                    System.out.println("\n\t\t\t -- Multiplicação --\n");
+                    System.out.println("Digite o primeiro número: ");
+                    n1 = entrada.nextInt();
+                    System.out.println("Digite o segundo número: ");
+                    n2 = entrada.nextInt();
+    
+                    //Processamento
+                    total = n1 * n2;
+    
+                    //Saida
+                    System.out.println("O resultado da multiplicação é:" + total);
+                } else if(op == 4){
+
+
+                
+                
+                
+                
+                
+                
+                
+                
+                    //Miguel divisão
+
+                System.out.println("\n\t\t\t -- Divisão --\n");
+                    System.out.println("Digite o primeiro número: ");
+                    n1 = entrada.nextInt();
+                    System.out.println("Digite o segundo número: ");
+                    n2 = entrada.nextInt();
+    
+                    //Processamento
+                    total = n1 / n2;
+    
+                    //Saida
+                    System.out.println("O resultado da divisão é:" + total);
+                } else if(op == 3){
+
+
+
 
 
                 System.out.println("\n\t\t\t -- Subtração --\n");
-            }else if(op == 3){
+            }else if(op == 5){
                 System.out.println("Forte abraço!");
             }else{
                 System.out.println("Opção" + op + " incorreta!");
             }
 
-        }while(op!=3);
+        }while(op!=6);
 
 
 

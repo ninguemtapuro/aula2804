@@ -39,9 +39,6 @@ public class CalculadoraSimples{
             } else if(op == 2){
                
                 //Rai
-                
-                    
-                    //Entrada
                     System.out.println("\n\t\t\t -- Subtração --\n");
                     System.out.println("Digite o primeiro número: ");
                     n1 = entrada.nextInt();
